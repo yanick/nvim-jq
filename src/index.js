@@ -1,7 +1,7 @@
-import JQquery from './JQquery';
+import JQquery from './JQquery/JQquery';
 
 module.exports = plugin => {
 
-    plugin.registerCommand( 'JQquery', JQquery(plugin) );
+    plugin.registerFunction( 'JQquery', JQquery(plugin), {} );
 
 };

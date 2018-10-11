@@ -2,10 +2,10 @@
   "name": "nvim-jq",
   "version": "1.0.0",
   "description": "",
-  "main": "rplugin/node/index.js",
+  "main": "rplugin/node/JQ/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d rplugin/node/lib"
+    "build": "babel src -d rplugin/node/JQ"
   },
   "dependencies": {
     "child-process-promise": "^2.2.1",
