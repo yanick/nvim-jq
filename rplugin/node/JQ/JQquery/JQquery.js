@@ -22,7 +22,6 @@ exports.default = plugin => async (...filters) => {
   lines.forEach(l => proc.stdin.write(l));
   proc.stdin.end();
   let result = await job;
-  console.log(result.sdtout);
   buffer.setLines(result.stdout.split("\n"), {
     start: 0,
     end: -1

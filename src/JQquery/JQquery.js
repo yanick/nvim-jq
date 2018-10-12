@@ -19,9 +19,6 @@ export default plugin => async (...filters) => {
 
     let result = await job;
 
-
-    console.log( result.sdtout);
-    
     buffer.setLines( result.stdout.split("\n"), {
         start: 0, end: -1
     });
