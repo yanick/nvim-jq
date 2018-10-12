@@ -47,6 +47,9 @@ If many arguments are provided, they will be joined with `|`s.
     " equivalent to
     :call JQquery( '.[] | .foo' )
 
+
+<a href="https://asciinema.org/a/GEsWA6iU91zeZ5jBj3V3I7gXr" target="_blank"><img src="https://asciinema.org/a/GEsWA6iU91zeZ5jBj3V3I7gXr.png" width="300px" /></a>
+
 ### JQfilter 
 
     :call JQfilter()
@@ -56,6 +59,8 @@ well as a json file. It'll take the content of the `.jq` file (stripping the
 carriage returns) as the jq query, filter the json document with it and output
 the result in a third buffer. If the name of the json document is `foo.json`, 
 the name of the filtered output buffer will be `foo.filtered.json`.
+
+<a href="https://asciinema.org/a/AiSTGIX7nMiu9vE1EHmRtxavV" target="_blank"><img src="https://asciinema.org/a/AiSTGIX7nMiu9vE1EHmRtxavV.png" width="300px"/></a>
 
 ### Mappings for `*.jq` files
  
